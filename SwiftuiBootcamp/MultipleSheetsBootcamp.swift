@@ -17,7 +17,7 @@ struct MultipleSheetsBootcamp: View {
     @State var selectedModel: RandomModel? = nil
     
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack(spacing: 20) {
                 ForEach(0..<50) { index in
                     Button("Button\(index)"){

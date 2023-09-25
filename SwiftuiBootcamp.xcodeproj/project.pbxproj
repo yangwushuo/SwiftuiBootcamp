@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752C7CFA2AC1716600902179 /* dida1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 752C7CF82AC1716500902179 /* dida1.mp3 */; };
+		752C7CFB2AC1716600902179 /* dida2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 752C7CF92AC1716600902179 /* dida2.mp3 */; };
+		752C7CFD2AC1718800902179 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C7CFC2AC1718800902179 /* SoundsBootcamp.swift */; };
+		752C7CFF2AC175EE00902179 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C7CFE2AC175EE00902179 /* HapticsBootcamp.swift */; };
+		752C7D012AC1879900902179 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C7D002AC1879900902179 /* LocalNotificationBootcamp.swift */; };
+		752C7D032AC196F100902179 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C7D022AC196F100902179 /* HashableBootcamp.swift */; };
+		755869532AC15B0700720DE3 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755869522AC15B0700720DE3 /* MaskBootcamp.swift */; };
 		75E8E9CE2ABBEB320024B116 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8E9CD2ABBEB320024B116 /* RotationGestureBootcamp.swift */; };
 		75E8E9D02ABC0FE10024B116 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8E9CF2ABC0FE10024B116 /* DragGestureBootcamp.swift */; };
 		75E8E9D22ABC1B0A0024B116 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8E9D12ABC1B0A0024B116 /* DragGestureBootcamp2.swift */; };
@@ -109,6 +116,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752C7CF82AC1716500902179 /* dida1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dida1.mp3; sourceTree = "<group>"; };
+		752C7CF92AC1716600902179 /* dida2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dida2.mp3; sourceTree = "<group>"; };
+		752C7CFC2AC1718800902179 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		752C7CFE2AC175EE00902179 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		752C7D002AC1879900902179 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		752C7D022AC196F100902179 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		755869522AC15B0700720DE3 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		75E8E9CD2ABBEB320024B116 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		75E8E9CF2ABC0FE10024B116 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		75E8E9D12ABC1B0A0024B116 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
@@ -221,6 +235,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		752C7CF72AC1712200902179 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				752C7CF82AC1716500902179 /* dida1.mp3 */,
+				752C7CF92AC1716600902179 /* dida2.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		96F70A9D2AB7422000E7B8AB = {
 			isa = PBXGroup;
 			children = (
@@ -262,10 +285,12 @@
 				75E8E9CD2ABBEB320024B116 /* RotationGestureBootcamp.swift */,
 				75E8E9D52ABC38BC0024B116 /* GeometryReaderBootcamp.swift */,
 				75E8E9CF2ABC0FE10024B116 /* DragGestureBootcamp.swift */,
+				755869522AC15B0700720DE3 /* MaskBootcamp.swift */,
 				75E8E9D12ABC1B0A0024B116 /* DragGestureBootcamp2.swift */,
 				963905372AB744F500F7608F /* ColorPickerBootcamp.swift */,
 				963905632AB744F500F7608F /* ColorsBootcamp.swift */,
 				963905572AB744F500F7608F /* ConditionalBootcamp.swift */,
+				752C7CF72AC1712200902179 /* Sounds */,
 				96D269C32ABB3A51000CCE20 /* LongPressGestureBootcamp.swift */,
 				9639055A2AB744F500F7608F /* ContextMenuBootcamp.swift */,
 				9639053B2AB744F500F7608F /* DarkModeBootcamp.swift */,
@@ -276,10 +301,12 @@
 				96D269C52ABB4911000CCE20 /* MagnificationGestureBootcamp.swift */,
 				963905682AB744F500F7608F /* ExtractSubviewsBootcamp.swift */,
 				9639053A2AB744F500F7608F /* FocusStateBootcamp.swift */,
+				752C7CFC2AC1718800902179 /* SoundsBootcamp.swift */,
 				9639056A2AB744F500F7608F /* ForEachBootcamp.swift */,
 				963905772AB744F600F7608F /* FrameBootcamp.swift */,
 				9639056D2AB744F500F7608F /* GradientsBootcamp.swift */,
 				963905442AB744F500F7608F /* GridBootcamp.swift */,
+				752C7D002AC1879900902179 /* LocalNotificationBootcamp.swift */,
 				9639053E2AB744F500F7608F /* GroupBootcamp.swift */,
 				963905552AB744F500F7608F /* IconsBootcamp.swift */,
 				9639053C2AB744F500F7608F /* ifLetGuardBootcamp.swift */,
@@ -292,6 +319,7 @@
 				963905532AB744F500F7608F /* NavigationStackBootcamp.swift */,
 				963905472AB744F500F7608F /* NavigationViewBootcamp.swift */,
 				963905392AB744F500F7608F /* OnAppearBootcamp.swift */,
+				752C7D022AC196F100902179 /* HashableBootcamp.swift */,
 				9639056E2AB744F500F7608F /* PaddingAndSpacerBootcamp.swift */,
 				9639054B2AB744F500F7608F /* PickerBootcamp.swift */,
 				963905452AB744F500F7608F /* PopoverBootcamp.swift */,
@@ -302,6 +330,7 @@
 				963905652AB744F500F7608F /* ScrollViewBootcamp.swift */,
 				963905402AB744F500F7608F /* ShapesBootcamp.swift */,
 				9639053D2AB744F500F7608F /* SheetsBootcamp.swift */,
+				752C7CFE2AC175EE00902179 /* HapticsBootcamp.swift */,
 				9639055D2AB744F500F7608F /* SliderBootcamp.swift */,
 				75E8E9D72ABC494C0024B116 /* MultipleSheetsBootcamp.swift */,
 				963905412AB744F500F7608F /* SpacerBootcamp.swift */,
@@ -457,9 +486,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9639057B2AB744F600F7608F /* Preview Content in Resources */,
+				752C7CFB2AC1716600902179 /* dida2.mp3 in Resources */,
 				96F70AB12AB7422100E7B8AB /* Preview Assets.xcassets in Resources */,
 				963905BC2AB744F600F7608F /* Assets.xcassets in Resources */,
 				96F70AAE2AB7422100E7B8AB /* Assets.xcassets in Resources */,
+				752C7CFA2AC1716600902179 /* dida1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +532,8 @@
 				75E8E9D82ABC494C0024B116 /* MultipleSheetsBootcamp.swift in Sources */,
 				963905A22AB744F600F7608F /* AnimationTimingBootcamp.swift in Sources */,
 				96D269C42ABB3A51000CCE20 /* LongPressGestureBootcamp.swift in Sources */,
+				752C7CFD2AC1718800902179 /* SoundsBootcamp.swift in Sources */,
+				752C7D012AC1879900902179 /* LocalNotificationBootcamp.swift in Sources */,
 				963905912AB744F600F7608F /* TextSelectionBootcamp.swift in Sources */,
 				963905802AB744F600F7608F /* SheetsBootcamp.swift in Sources */,
 				9639057C2AB744F600F7608F /* OnAppearBootcamp.swift in Sources */,
@@ -512,8 +545,10 @@
 				963905832AB744F600F7608F /* ShapesBootcamp.swift in Sources */,
 				963905A32AB744F600F7608F /* InitializerBootcamp.swift in Sources */,
 				963905B12AB744F600F7608F /* PaddingAndSpacerBootcamp.swift in Sources */,
+				752C7D032AC196F100902179 /* HashableBootcamp.swift in Sources */,
 				96F70AAC2AB7422000E7B8AB /* ContentView.swift in Sources */,
 				963905A82AB744F600F7608F /* ScrollViewBootcamp.swift in Sources */,
+				755869532AC15B0700720DE3 /* MaskBootcamp.swift in Sources */,
 				963905A02AB744F600F7608F /* SliderBootcamp.swift in Sources */,
 				963905922AB744F600F7608F /* BadgesBootcamp.swift in Sources */,
 				9639058B2AB744F600F7608F /* ModelBootcamp.swift in Sources */,
@@ -531,6 +566,7 @@
 				9639057D2AB744F600F7608F /* FocusStateBootcamp.swift in Sources */,
 				96F70AAA2AB7422000E7B8AB /* SwiftuiBootcampApp.swift in Sources */,
 				9639059E2AB744F600F7608F /* EnvironmentObjectBootcamp.swift in Sources */,
+				752C7CFF2AC175EE00902179 /* HapticsBootcamp.swift in Sources */,
 				963905A72AB744F600F7608F /* StacksBootcamp.swift in Sources */,
 				963905852AB744F600F7608F /* TapGestureBootcamp.swift in Sources */,
 				963905872AB744F600F7608F /* GridBootcamp.swift in Sources */,
@@ -719,10 +755,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftuiBootcamp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K747HP4P7T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -737,6 +774,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangwushuo.SwiftuiBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -748,10 +786,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftuiBootcamp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K747HP4P7T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -766,6 +805,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangwushuo.SwiftuiBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
