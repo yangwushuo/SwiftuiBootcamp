@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftuiBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            WeakSelfBootcamp()
+            DownloadWithEscapingBootcamp()
         }
     }
 }
